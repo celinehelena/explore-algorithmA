@@ -31,5 +31,9 @@ Ao fim da execução, os programas exibem métricas de desempenho, como tempo de
 ---
 ## 📊 Resultados
 
+Após a execução dos algoritmos de menor caminho (A*, Dijkstra Tradicional e Dijkstra com Min-Heap) sobre as rotas planejadas, foram obtidos os resultados que estao na tabela comparativa. 
+A partir dela percebe-se que  o algoritmo de A* foi ligeiramente mais rápido que o Dijkstra Min-Heap, mas apresentou uma distância total um pouco maior. E o Dijkstra Tradicional, mesmo fornecendo uma rota competitiva em distância, foi consideravelmente mais lento, o que evidencia sua baixa eficiência computacional para grafos grandes.
+Com respeito das emissões de carbono revelam que o menor caminho nem sempre é o mais rápido.
+
 ## Vídeo explicativo
 🎥 [Link para o vídeo](https://www.loom.com/share)
