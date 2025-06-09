@@ -47,43 +47,42 @@ Com base nos mapas:
 
 As saídas de cada programa foram organizadas abaixo:
 
-## Versão 1: Algoritmo A* com Heurística Euclidiana
+<h2>Versão 1: Algoritmo A* com Heurística Euclidiana</h2>
 
-- **Figura 1**: Mapa de rotas A*  
-  ![Mapa de rotas A*](img/Astar.png)
+<p><strong>Figura 1</strong>: Mapa de rotas A*</p>
+<img src="img/Astar.png" alt="Mapa de rotas A*" width="600"/>
 
-- **Figura 2**: Saída do programa A*  
-  ![Saída do programa A*](img/saidaAstar.png)
+<p><strong>Figura 2</strong>: Saída do programa A*</p>
+<img src="img/saidaAstar.png" alt="Saída do programa A*" width="600"/>
 
-- **Figura 3**: Emissão de carbono A*  
-  ![Emissão de carbono A*](img/Co2Astar.png)
+<p><strong>Figura 3</strong>: Emissão de carbono A*</p>
+<img src="img/Co2Astar.png" alt="Emissão de carbono A*" width="600"/>
 
----
+<hr/>
 
-## Versão 2: Algoritmo de Dijkstra
+<h2>Versão 2: Algoritmo de Dijkstra</h2>
 
-- **Figura 1**: Mapa de rotas Dijkstra  
-  ![Mapa de rotas Dijkstra](img/map_dijks.png)
+<p><strong>Figura 1</strong>: Mapa de rotas Dijkstra</p>
+<img src="img/map_dijks.png" alt="Mapa de rotas Dijkstra" width="600"/>
 
-- **Figura 2**: Saída do programa Dijkstra  
-  ![Saída do programa Dijkstra](img/saida_dijk.png)
+<p><strong>Figura 2</strong>: Saída do programa Dijkstra</p>
+<img src="img/saida_dijk.png" alt="Saída do programa Dijkstra" width="600"/>
 
-- **Figura 3**: Emissão de carbono Dijkstra  
-  ![Emissão de carbono Dijkstra](img/Co2Dijkstra.png)
+<p><strong>Figura 3</strong>: Emissão de carbono Dijkstra</p>
+<img src="img/Co2Dijkstra.png" alt="Emissão de carbono Dijkstra" width="600"/>
 
----
+<hr/>
 
-## Versão 3: Dijkstra com Min-Heap
+<h2>Versão 3: Dijkstra com Min-Heap</h2>
 
-- **Figura 1**: Mapa de rotas Min-Heap  
-  ![Mapa de rotas Min-Heap](img/MinHeap.png)
+<p><strong>Figura 1</strong>: Mapa de rotas Min-Heap</p>
+<img src="img/MinHeap.png" alt="Mapa de rotas Min-Heap" width="600"/>
 
-- **Figura 2**: Saída do programa Min-Heap  
-  ![Saída do programa Min-Heap](img/saidaMinHeap.png)
+<p><strong>Figura 2</strong>: Saída do programa Min-Heap</p>
+<img src="img/saidaMinHeap.png" alt="Saída do programa Min-Heap" width="600"/>
 
-- **Figura 3**: Emissão de carbono Min-Heap  
-  ![Emissão de carbono Min-Heap](img/Co2MinHeap.png)
-
+<p><strong>Figura 3</strong>: Emissão de carbono Min-Heap</p>
+<img src="img/Co2MinHeap.png" alt="Emissão de carbono Min-Heap" width="600"/>
 
 ---
 
