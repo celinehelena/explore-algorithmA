@@ -11,6 +11,11 @@ O objetivo desse trabalho é desenvolver uma estratégia de mapeamento de rotas 
 
 ---
 
+## Vídeo explicativo
+🎥 [Link para o vídeo]()
+
+---
+
 ## 📁Estrutura do Repositório
 
 No total, foram utilizadas três versões diferentes de um programa em Python para calcular as melhores rotas para o percurso de coleta das amostras pelos 10 agentes. Os códigos utilizados estão disponíveis na pasta `src` e implementam abordagens diferentes para calcular o caminho mais curto. A primeira versão utiliza o algoritmo A*, a segunda utiliza o algoritmo de Dijkstra e, finalmente, a terceira utiliza uma versão otimizada do Dijkstra com *min heap*.
@@ -109,7 +114,3 @@ O algoritmo A* superou os demais em **velocidade e eficiência geral**. Ele é b
 
 Essa análise destaca a importância de escolher o algoritmo mais adequado com base no **tamanho do problema**, **requisitos de tempo** e **capacidade computacional disponível**. A versão com Min-Heap do Dijkstra foi a mais equilibrada entre eficiência, economia de distância e sustentabilidade ambiental. O uso do A* também se mostrou eficiente em tempo, embora com rota um pouco mais longa.
 
----
-
-## Vídeo explicativo
-🎥 [Link para o vídeo](https://www.loom.com/share)
