@@ -6,8 +6,8 @@ O objetivo desse trabalho é desenvolver uma estratégia de mapeamento de rotas 
 
 ### Responsável
 - Celine Helena Abrantes de Andrade.  Matrícula: 20200078207.
-- Gustavo
-- Matheus
+- Gustavo Pereira de Carvalho. Matrícula: 20210039543.
+- Matheus Bezerra Dantas Saraiva. Matrícula:
 
 ---
 
