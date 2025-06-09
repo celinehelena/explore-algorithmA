@@ -37,6 +37,14 @@ A partir dela percebe-se que  o algoritmo de A* foi ligeiramente mais rápido qu
 
 Com respeito das emissões de carbono revelam que o menor caminho nem sempre é o mais rápido.
 
+Com base nos mapas:
+
+- Todos os algoritmos distribuíram os pontos de forma relativamente balanceada entre os 10 agentes.
+
+- O A* parece privilegiar caminhos mais diretos em vias principais, possivelmente por conta da heurística baseada em distância euclidiana.
+
+- O Dijkstra Tradicional pode gerar resultados mais “exatos” em termos de distância, mas o custo computacional é alto.
+
 ---
 
 ## Conclusão 
