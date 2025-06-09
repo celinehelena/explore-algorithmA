@@ -45,11 +45,50 @@ Com base nos mapas:
 
 - O Dijkstra Tradicional pode gerar resultados mais “exatos” em termos de distância, mas o custo computacional é alto.
 
+As saídas de cada programa foram organizadas abaixo:
+
+## Versão 1: Algoritmo A* com Heurística Euclidiana
+
+- **Figura 1**: [Mapa de rotas A*](img/Astar.png)
+- **Figura 2**: [Saída do programa A*](img/saidaAstar.png)
+- **Figura 3**: [Emissão de carbono A*](img/Co2Astar.png)
+
+## Versão 2: Algoritmo de Dijkstra
+
+- **Figura 1**: [Mapa de rotas Dijkstra](img/map_dijks.png)
+- **Figura 2**: [Saída do programa Dijkstra](img/saida_dijk.png)
+- **Figura 3**: [Emissão de carbono Dijkstra](img/Co2Dijkstra.png)
+
+## Versão 3: Dijkstra com Min-Heap
+
+- **Figura 1**: [Mapa de rotas Min-Heap](img/MinHeap.png)
+- **Figura 2**: [Saída do programa Min-Heap](img/saidaMinHeap.png)
+- **Figura 3**: [Emissão de carbono Min-Heap](imgCo2MinHeap.png)
+
 ---
 
-## Conclusão 
+## Análise de Eficiência
 
-A versão com Min-Heap do Dijkstra foi a mais equilibrada entre eficiência, economia de distância e sustentabilidade ambiental. O uso do A* também se mostrou eficiente em tempo, embora com rota um pouco mais longa.
+A comparação entre os três algoritmos evidencia diferenças significativas em termos de **tempo de execução** e **eficiência computacional**:
+
+### 🟡 Dijkstra (versão pura)
+O algoritmo de Dijkstra clássico é conhecido por sua **precisão**, mas também pelo **alto custo computacional**, especialmente em grafos grandes e densos, como mapas urbanos. Neste projeto, essa versão levou aproximadamente **40 minutos** para completar a tarefa, o que a torna **pouco prática para aplicações em tempo real**. Isso ocorre porque a busca percorre todos os nós acessíveis sem priorização, o que gera muitas operações desnecessárias.
+
+### 🟢 Dijkstra com Min-Heap
+A introdução de uma estrutura de dados mais eficiente — a **Min-Heap** — para armazenar os nós a serem explorados, reduz drasticamente o tempo de execução para cerca de **3 minutos**. Essa melhoria ocorre porque a **Min-Heap permite acesso mais rápido ao próximo nó com menor custo**, reduzindo a complexidade da operação de extração do menor valor de `O(n)` para `O(log n)`. Com isso, o algoritmo mantém a precisão do Dijkstra original, mas com um ganho expressivo em desempenho.
+
+### 🔵 A* com heurística Euclidiana
+O algoritmo A* superou os demais em **velocidade e eficiência geral**. Ele é baseado no Dijkstra, mas com a vantagem de incorporar uma **heurística (neste caso, a distância Euclidiana até o destino)** para guiar a busca de forma mais inteligente. Isso significa que o A* evita expandir caminhos pouco promissores, reduzindo drasticamente o número de nós visitados. Na prática, isso resultou em **tempos de execução ainda menores que o Dijkstra com Min-Heap**, além de menor emissão de carbono computacional.
+
+---
+
+## Conclusão
+
+- O **Dijkstra puro** é funcional, porém **ineficiente para problemas de grande escala**.
+- O **Dijkstra com Min-Heap** representa uma **evolução importante**, com grande ganho de tempo sem perda de exatidão.
+- O **A\*** se mostra o **mais eficiente**, especialmente em cenários com ponto de destino conhecido, pois a heurística ajuda a focar a busca e reduzir o esforço computacional.
+
+Essa análise destaca a importância de escolher o algoritmo mais adequado com base no **tamanho do problema**, **requisitos de tempo** e **capacidade computacional disponível**. A versão com Min-Heap do Dijkstra foi a mais equilibrada entre eficiência, economia de distância e sustentabilidade ambiental. O uso do A* também se mostrou eficiente em tempo, embora com rota um pouco mais longa.
 
 ---
 
