@@ -27,6 +27,7 @@ Como o trabalho foi desenvolvido voltado para a cidade de Natal-RN, foi necessá
 A implementação do algoritmo A* utilizada foi a opção disponibilizada pela própria biblioteca NetworkX, junto de uma heurística Euclidiana. As versões com Dijkstra e *min heap* utilizam implementações próprias.
 
 Ao fim da execução, os programas exibem métricas de desempenho, como tempo de execução e pegada de carbono — esta última calculada através da biblioteca CodeCarbon. Também são exibidas as distâncias percorridas por cada agente nas rotas calculadas e um mapa que mostra todas as rotas encontradas, a distância de cada uma e o trajeto total.
+
 ---
 ## 📊 Resultados
 
