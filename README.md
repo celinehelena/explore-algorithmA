@@ -4,7 +4,7 @@ O Centro de Controle de Zoonoses de Natal é responsável por ações de vigilâ
 
 O objetivo desse trabalho é desenvolver uma estratégia de mapeamento de rotas que otimize a distânci total percorrida por cada colaborador e distribua os pontos equitativamente entre os 10 colaboradores, considerando que cada agente parte da estação central, visita X casas e retorna para a estação.
 
-### Responsável
+### Grupo responsável
 - Celine Helena Abrantes de Andrade.  Matrícula: 20200078207.
 - Gustavo Pereira de Carvalho. Matrícula: 20210039543.
 - Matheus Bezerra Dantas Saraiva. Matrícula: 20230093901
