@@ -12,7 +12,7 @@ O objetivo desse trabalho é desenvolver uma estratégia de mapeamento de rotas 
 ---
 
 ## Vídeo explicativo
-🎥 [Link para o vídeo]()
+🎥 [Link para o vídeo](https://youtu.be/wmg7X3EI-k0)
 
 ---
 
