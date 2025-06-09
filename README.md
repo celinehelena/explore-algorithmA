@@ -66,7 +66,7 @@ As saídas de cada programa foram organizadas abaixo:
 <img src="img/map_dijks.png" alt="Mapa de rotas Dijkstra" width="600"/>
 
 <p><strong>Figura 2</strong>: Saída do programa Dijkstra</p>
-<img src="img/saida_dijk.png" alt="Saída do programa Dijkstra" width="600"/>
+<img src="img/saida_dijk.jpg" alt="Saída do programa Dijkstra" width="600"/>
 
 <p><strong>Figura 3</strong>: Emissão de carbono Dijkstra</p>
 <img src="img/Co2Dijkstra.png" alt="Emissão de carbono Dijkstra" width="600"/>
