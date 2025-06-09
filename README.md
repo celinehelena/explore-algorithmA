@@ -49,21 +49,41 @@ As saídas de cada programa foram organizadas abaixo:
 
 ## Versão 1: Algoritmo A* com Heurística Euclidiana
 
-- **Figura 1**: [Mapa de rotas A*](img/Astar.png)
-- **Figura 2**: [Saída do programa A*](img/saidaAstar.png)
-- **Figura 3**: [Emissão de carbono A*](img/Co2Astar.png)
+- **Figura 1**: Mapa de rotas A*  
+  ![Mapa de rotas A*](img/Astar.png)
+
+- **Figura 2**: Saída do programa A*  
+  ![Saída do programa A*](img/saidaAstar.png)
+
+- **Figura 3**: Emissão de carbono A*  
+  ![Emissão de carbono A*](img/Co2Astar.png)
+
+---
 
 ## Versão 2: Algoritmo de Dijkstra
 
-- **Figura 1**: [Mapa de rotas Dijkstra](img/map_dijks.png)
-- **Figura 2**: [Saída do programa Dijkstra](img/saida_dijk.png)
-- **Figura 3**: [Emissão de carbono Dijkstra](img/Co2Dijkstra.png)
+- **Figura 1**: Mapa de rotas Dijkstra  
+  ![Mapa de rotas Dijkstra](img/map_dijks.png)
+
+- **Figura 2**: Saída do programa Dijkstra  
+  ![Saída do programa Dijkstra](img/saida_dijk.png)
+
+- **Figura 3**: Emissão de carbono Dijkstra  
+  ![Emissão de carbono Dijkstra](img/Co2Dijkstra.png)
+
+---
 
 ## Versão 3: Dijkstra com Min-Heap
 
-- **Figura 1**: [Mapa de rotas Min-Heap](img/MinHeap.png)
-- **Figura 2**: [Saída do programa Min-Heap](img/saidaMinHeap.png)
-- **Figura 3**: [Emissão de carbono Min-Heap](imgCo2MinHeap.png)
+- **Figura 1**: Mapa de rotas Min-Heap  
+  ![Mapa de rotas Min-Heap](img/MinHeap.png)
+
+- **Figura 2**: Saída do programa Min-Heap  
+  ![Saída do programa Min-Heap](img/saidaMinHeap.png)
+
+- **Figura 3**: Emissão de carbono Min-Heap  
+  ![Emissão de carbono Min-Heap](img/Co2MinHeap.png)
+
 
 ---
 
